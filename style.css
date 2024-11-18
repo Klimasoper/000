@@ -1,0 +1,100 @@
+.top{
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left:3%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+
+.telo{
+    position: relative;
+    top: 100px;
+    width: 800px;
+    height: 200px;
+    background-color: blueviolet;
+    border-top-right-radius:50px ;
+}
+.coleso1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+position: relative;
+top: 10px;
+left: 10px;
+}
+.a{
+    display: flex;
+}
+.coleso2{ width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+position: relative;
+top: 10px;
+margin-left: 13%;
+
+
+
+}
+.lazer{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgb(230, 212, 212);
+    left:24%;
+    top: 52%;
+
+}
+.okna{
+    width: 600px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    position: absolute;
+    top:380px;
+    left:100px;
+    border-top-left-radius: 30px;
+}
+.svet{
+    /* background-color: rgb(240, 205, 159);
+    /* width: 350px; */
+    /* height: 350px;
+    position: relative;
+    left: 100px;
+    top:-270px; */ 
+    border: 350px solid transparent; border-right: 350px solid rgb(233, 203, 106);
+    /* border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 7px; */
+    opacity: 0.2;
+    position: relative;
+    top: -310px;
+    left: -250px;
+}
+.test{
+    animation-name: kek;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    
+}
+    
+
+@keyframes kek {
+0%{left:-200px;top:0px;}
+33%{left:300px;top:0px;}
+66%{left:800px;top:0px;}
+100%{left:1920px;top:0px;}
+
+
+
+
+}
